@@ -1,0 +1,1 @@
+This repo contains a custom Dockerfile to create a DinD rootless image to be used with the [actions-runner-controller](https://github.com/actions-runner-controller/actions-runner-controller) project. With this setup we try to make the setup more secure, as the default one uses Docker in Docker, that is run as root.
